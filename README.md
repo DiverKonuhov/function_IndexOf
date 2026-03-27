@@ -22,7 +22,7 @@ string Format(string template, int[] vals)
 
 
 Также хочу заметить что были и неудачные варианты но по большому счёту я потратил на эту фигню целый день
-№ неудачные варианты
+# неудачные варианты
 var king = "King Balon the 6th";
 
 // BEGIN (write your solution here)
