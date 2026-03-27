@@ -45,3 +45,33 @@ var values = myVars[cddd];
 // Собираем строку, где 6 будет в начале, а 10 в конце
 Console.Write($"{nameof(myVars[cddd[string.IndexOf('{')values[0], string.IndexOf('}'(поиск уже с конца а не с начала строки))values[1]]])}");
 // END
+
+# Так же ещё одна функция мне было скучно и я подумал почему бы не пошльзоваться стрингами
+//Создайте строку с текстом One more time, явно укажите тип данных и выведите ее на экран
+int num1 = 0, num2 = 0;
+char[,] matrix = new char[12, 12];
+
+matrix[0, 0] = 'O'; matrix[0, 1] = 'n'; matrix[0, 2] = 'e'; matrix[0, 3] = '\0'; matrix[0, 4] = '\0'; matrix[0, 5] = ' ';
+matrix[1, 0] = '\0'; matrix[1, 1] = 'm'; matrix[1, 2] = 'o'; matrix[1, 3] = 'r'; matrix[1, 4] = 'e'; matrix[1, 5] = ' ';
+matrix[2, 0] = '\0'; matrix[2, 1] = 't'; matrix[2, 2] = 'i'; matrix[2, 3] = 'm'; matrix[2, 4] = 'e'; matrix[2, 5] = '\0';
+matrix[3, 0] = '\0'; matrix[3, 1] = '\0'; matrix[3, 2] = '\0'; matrix[3, 3] = '\0'; matrix[3, 4] = '\0'; matrix[3, 5] = '\0';
+
+for(int i = 0, j = 0; i<24 && j<4;)
+{
+    Console.Write(matrix[j, i]); 
+    if(i == 6)
+    {
+        j++;
+        i--;
+        i--;
+        i--;
+        i--;
+        i--;
+        i--;
+    }
+    i++;
+
+}
+
+
+
